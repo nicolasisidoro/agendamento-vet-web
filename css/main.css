@@ -19,8 +19,66 @@ body {
 }
 
 body{
-  background: #f5f6fa;
+  background: #ffffff;
 }
+
+.btn{
+  font-size: 24px;
+  text-decoration: none;
+  position: relative;
+  margin: 25px;
+  top: 50px;
+  left: 20px;
+}
+  .btn-1{
+    color: white;
+    background-color:#50d897 ;
+    padding: 10px;
+    border-bottom: 5px solid #43b87f ;
+  }
+  .btn-1:hover{
+    background-color:#76f0b5;
+    box-shadow: 0px 0px 10px #76f0b5 ;
+    
+  }
+  .btn-2{
+    position: relative;
+    color: white;
+    font-size: 18px;
+    background-color:#ffc989 ;
+    text-align: center;
+    /* margin: 20px; */
+    padding: 5px;
+    border-radius: 10px;
+    border-bottom: 5px solid #e0ae70 ;
+    width: 10%;
+  }
+  .btn-2:hover{
+    background-color:#ffd9aa;
+    box-shadow: 0px 0px 10px #ffd9aa;
+    cursor: pointer;
+    
+  }
+  .btn-3{
+    position: relative;
+    color: white;
+    font-size: 18px;
+    background-color:#A5BBF5 ;
+    text-align: center;
+    /* margin: 20px; */
+    padding: 5px;
+    border-radius: 10px;
+    border-bottom: 5px solid #7895e4;
+    width: 10%;
+  }
+  .btn-3:hover{
+    background-color:#b8cafb;
+    box-shadow: 0px 0px 10px #b8cafb;
+    cursor: pointer;
+    
+  }
+
+
 
 .wrapper .sidebar{
   background: #FAC5B6;
@@ -115,12 +173,30 @@ body{
   color: #A5BBF5;
 }
 
- .wrapper .section .container{
-  margin: 30px;
-  background: #fff;
-  padding: 50px;
-  line-height: 28px;
+.titulo{
+  position: relative;
+  display: flex;
+  margin: 25px;
 }
+
+.subtitulo{
+  position: relative;
+  display: flex;
+  margin: 25px;
+  top: 100px;
+  left: 1px;
+}
+
+.subtitulo h2{
+  font-size: 28px;
+  font-weight: lighter;
+}
+
+#imgpos {
+	position: absolute; 
+	left: 330px;
+	top: -1px;
+	}
 
 body.active .wrapper .sidebar{
   left: -225px;
@@ -129,4 +205,18 @@ body.active .wrapper .sidebar{
 body.active .wrapper .section{
   margin-left: 0;
   width: 100%;
+}
+
+.consultas-agendadas{
+  margin: 30px;
+  padding: 15px;
+  position: relative;
+  top: 90px;
+}
+
+.consultas-agendadas h5{
+  position: relative;
+  top: 7px;
+  font-size: 20px;
+  font-weight: lighter;
 }
